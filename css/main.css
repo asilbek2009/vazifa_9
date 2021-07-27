@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url("../fonts/Rubik-Bold.woff2") format("woff2"),
+        url("../fonts/Rubik-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: "Rubik""Arial""san-serif";
+}
+
+* {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    background: #F6F6F9;
+    padding-top: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 44px;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.header-section {}
+
+.header-section img {
+    width: 306px;
+    height: 33px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #295091;
+    box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+    border-radius: 5px;
+}
+
+.header-section span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #285193;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.header-right-a {
+    color: white;
+    vertical-align: middle;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.header-right-icon {
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.header-right-icon-a {
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #535353;
+    vertical-align: middle;
+}
+
+.header-right-icon-a img {
+    background: #FFFFFF;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.header-right img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.section-pages {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.section-pages a {
+    color: #515151;
+    text-transform: capitalize;
+}
+
+.section-pages li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+
+    color: #515151;
+}
+
+.section-jpeg {
+    border: 1px solid #E0E0E0;
+}
